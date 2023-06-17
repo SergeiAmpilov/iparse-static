@@ -1,0 +1,10 @@
+.promo__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 40px 0 0;
+}
+
+.promo__subtitle:last-child {
+  margin: 0;
+}

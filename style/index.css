@@ -7,6 +7,11 @@
 @import url(./header/__nav/header__nav.css);
 @import url(./header/__nav-link/header__nav-link.css);
 
+@import url(./promo/promo.css);
+@import url(./promo/__title/promo__title.css);
+@import url(./promo/__subtitle/promo__subtitle.css);
+@import url(./promo/__img/promo__img.css);
+
 
 
 
