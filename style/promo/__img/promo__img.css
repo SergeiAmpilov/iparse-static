@@ -1,6 +1,11 @@
 .promo__img {
   width: 100%;
   border-radius: 10px;
+
+  -webkit-box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
+  -moz-box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
+  box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
+
 }
 
 
