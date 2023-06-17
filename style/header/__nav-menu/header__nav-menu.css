@@ -1,0 +1,9 @@
+.header__nav-menu {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-menu {
+    display: none;
+  } 
+}
