@@ -3,7 +3,6 @@
 @import url(./body/body.css);
 @import url(./container/container.css);
 
-
 @import url(./header/__nav/header__nav.css);
 @import url(./header/__nav-link/header__nav-link.css);
 
@@ -12,7 +11,5 @@
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
 
-
-
-
 @import url(./footer/footer.css);
+@import url(./footer/__content/footer__content.css);
