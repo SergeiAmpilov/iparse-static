@@ -5,9 +5,7 @@
   -webkit-box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
   -moz-box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
   box-shadow: -12px 10px 9px 0px rgb(237, 247, 250);
-
 }
-
 
 @media screen and (max-width: 600px) {
   .promo__img {
