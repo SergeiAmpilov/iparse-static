@@ -19,8 +19,12 @@
 @import url(./articles/__head/_link/articles__head_link.css);
 @import url(./articles/__list/articles__list.css);
 @import url(./articles/__card/articles__card.css);
+@import url(./articles/__section/articles__section.css);
+@import url(./articles/__tag/articles__tag.css);
+@import url(./articles/__description/articles__description.css);
 
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);
 @import url(./hidden/hidden.css);
 @import url(./title2/title2.css);
+@import url(./title3/title3.css);

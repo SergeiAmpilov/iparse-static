@@ -1,0 +1,10 @@
+.articles__tag {
+  padding: 2px;
+  margin-right: 10px;
+  transition: .5s ease;
+}
+
+.articles__tag:hover {
+  color: #8695A4;
+  cursor: pointer;
+}
