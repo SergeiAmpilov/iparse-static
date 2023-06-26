@@ -1,4 +1,4 @@
-
+import '../style/index.css';
 
 document.addEventListener("DOMContentLoaded", bootstrap);
 
