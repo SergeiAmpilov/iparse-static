@@ -4,3 +4,13 @@
   line-height: 60px;
   margin: 0;
 }
+
+
+@media screen and (max-width: 600px) {
+  .promo__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
