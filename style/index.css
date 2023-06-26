@@ -6,6 +6,7 @@
 @import url(./header/__nav-menu/header__nav-menu.css);
 @import url(./header/__burger-icon/header__burger-icon.css);
 @import url(./header/__nav-link/header__nav-link.css);
+@import url(./header/__nav-link/_active/header__nav-link_active.css);
 @import url(./mob-menu/mob-menu.css);
 @import url(./mob-menu/mob-menu_visible.css);
 @import url(./mob-menu/__link/mob-menu__link.css);
@@ -13,7 +14,6 @@
 @import url(./promo/__title/promo__title.css);
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
-
 @import url(./articles/articles.css);
 @import url(./articles/__head/articles__head.css);
 @import url(./articles/__head/_link/articles__head_link.css);
@@ -22,6 +22,9 @@
 @import url(./articles/__section/articles__section.css);
 @import url(./articles/__tag/articles__tag.css);
 @import url(./articles/__description/articles__description.css);
+
+@import url(./articles-list/articles-list.css);
+
 
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);

@@ -1,0 +1,6 @@
+.header__nav-link_active,
+.header__nav-link_active:hover,
+.header__nav-link_active:visited {
+  color: #FF6464;
+  text-decoration: underline;
+}
