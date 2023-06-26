@@ -8,6 +8,10 @@
 @import url(./header/__burger-icon/header__burger-icon.css);
 @import url(./header/__nav-link/header__nav-link.css);
 
+@import url(./mob-menu/mob-menu.css);
+@import url(./mob-menu/mob-menu_visible.css);
+@import url(./mob-menu/__link/mob-menu__link.css);
+
 @import url(./promo/promo.css);
 @import url(./promo/__title/promo__title.css);
 @import url(./promo/__subtitle/promo__subtitle.css);
@@ -15,3 +19,5 @@
 
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);
+
+@import url(./hidden/hidden.css);

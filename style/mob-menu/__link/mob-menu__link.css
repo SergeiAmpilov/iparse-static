@@ -1,0 +1,10 @@
+
+.mob-menu__link {
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: end;
+}
+
+.mob-menu__link:last-child {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+.mob-menu_visible {
+  z-index: 3;
+  display: block;
+  visibility: visible;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  background-color: #EDF7FA;
+  height: calc(100vh - 80px);
+}
