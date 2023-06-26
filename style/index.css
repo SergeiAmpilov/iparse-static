@@ -2,22 +2,23 @@
 @import url(./vendor/fonts.css);
 @import url(./body/body.css);
 @import url(./container/container.css);
-
 @import url(./header/__nav/header__nav.css);
 @import url(./header/__nav-menu/header__nav-menu.css);
 @import url(./header/__burger-icon/header__burger-icon.css);
 @import url(./header/__nav-link/header__nav-link.css);
-
 @import url(./mob-menu/mob-menu.css);
 @import url(./mob-menu/mob-menu_visible.css);
 @import url(./mob-menu/__link/mob-menu__link.css);
-
 @import url(./promo/promo.css);
 @import url(./promo/__title/promo__title.css);
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
 
+@import url(./articles/articles.css);
+@import url(./articles/__head/articles__head.css);
+@import url(./articles/__head/_link/articles__head_link.css);
+
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);
-
 @import url(./hidden/hidden.css);
+@import url(./title2/title2.css);

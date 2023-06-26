@@ -1,0 +1,6 @@
+.articles__head_link,
+.articles__head_link:visited {
+  color: #00A8CC;
+  font-size: 16px;  
+  text-decoration: none;
+}
