@@ -1,0 +1,6 @@
+.articles__card {
+  padding: 24px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}

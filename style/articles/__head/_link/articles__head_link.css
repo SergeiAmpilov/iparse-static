@@ -4,3 +4,10 @@
   font-size: 16px;  
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 600px) {
+  .articles__head .articles__head_link {
+    display: none;
+  } 
+}

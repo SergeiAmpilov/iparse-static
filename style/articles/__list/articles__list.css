@@ -1,0 +1,16 @@
+.articles__list {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+@media screen and (max-width: 600px) {
+  .articles__list {
+    grid-template-columns: 1fr;
+  }
+}
