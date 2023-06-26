@@ -6,3 +6,10 @@ Technologies:
 + HTML
 + CSS
 + Javascript
++ webpack
+
+
+## How to build:
+
+> npm run build
+
