@@ -1,3 +1,17 @@
 .contact-form__button {
   grid-area: button;
+
+  color: #fff;
+  background-color: #00A8CC;
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: .5s ease;
+
+  border: none;
+}
+
+.contact-form__button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 168, 204, .7);
+  
 }
