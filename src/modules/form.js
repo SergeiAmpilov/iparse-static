@@ -3,14 +3,25 @@ export const initForm = () => {
 }
 
 
-export const handleSubmit = (evt) => {
+export const handleSubmit = async (evt) => {
   evt.preventDefault();
   const formData = new FormData(evt.target);
-  console.log('submit form', 
-    formData,
-    formData.get('name'),
-    formData.get('email'),
-    formData.get('description')
-  );
+
+  const reqObject = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      name: formData.get('name'),
+      email: formData.get('email'),
+      description: formData.get('description')
+    })
+  };
+
+  const res = await fetch('/contact-form', reqObject);
+
+  console.log('res request', res)
+
   evt.target.reset();
 }
