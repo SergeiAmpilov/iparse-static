@@ -1,0 +1,11 @@
+.contact-form__form-field {
+  width: 98%;
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+}
+
+
+.contact-form__form-field:focus {
+  border-color: #00A8CC;
+}

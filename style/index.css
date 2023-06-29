@@ -15,6 +15,17 @@
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
 @import url(./promo/__button/promo__button.css);
+@import url(./contact-form/contact-form.css);
+@import url(./contact-form/__subtitle/contact-form__subtitle.css);
+@import url(./contact-form/__form/contact-form__form.css);
+@import url(./contact-form/__name/contact-form__name.css);
+@import url(./contact-form/__email/contact-form__email.css);
+@import url(./contact-form/__text/contact-form__text.css);
+@import url(./contact-form/__button/contact-form__button.css);
+@import url(./contact-form/__form-field/contact-form__form-field.css);
+
+
+
 @import url(./articles/articles.css);
 @import url(./articles/__head/articles__head.css);
 @import url(./articles/__head/_link/articles__head_link.css);
