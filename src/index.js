@@ -1,5 +1,6 @@
 import '../style/index.css';
 import { initAnchors } from './modules/anchors';
+import { initForm } from './modules/form';
 
 document.addEventListener("DOMContentLoaded", bootstrap);
 
@@ -32,6 +33,7 @@ function bootstrap() {
   }
 
   initAnchors();
+  initForm();
 
 
   
