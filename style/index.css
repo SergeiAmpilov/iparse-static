@@ -23,8 +23,8 @@
 @import url(./contact-form/__text/contact-form__text.css);
 @import url(./contact-form/__button/contact-form__button.css);
 @import url(./contact-form/__form-field/contact-form__form-field.css);
-
-
+@import url(./contact-form/__form/_centered/contact-form__form_centered.css);
+@import url(./contact-form/__form/_text/contact-form__form_text.css);
 
 @import url(./articles/articles.css);
 @import url(./articles/__head/articles__head.css);
@@ -36,7 +36,6 @@
 @import url(./articles/__description/articles__description.css);
 
 @import url(./articles-list/articles-list.css);
-
 
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);

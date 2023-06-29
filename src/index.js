@@ -10,7 +10,6 @@ function bootstrap() {
   const burgerIconMenu = document.querySelector('.header__burger-icon');
   const closeIcon = document.querySelector('.header__close-icon');
   
-
   const toggleMenu = (evt) => {
     const menu = document.querySelector('.mob-menu');
     menu.classList.toggle('mob-menu_visible');
@@ -19,8 +18,6 @@ function bootstrap() {
     closeIcon.classList.toggle('hidden');
 
   }
-
-
 
   const elYear = document.querySelector('.footer__year');
   if (elYear) {
@@ -33,9 +30,6 @@ function bootstrap() {
   }
 
   initAnchors();
-  initForm();
-
-
-  
+  initForm();  
 }
 

@@ -5,6 +5,10 @@ export const initForm = () => {
 
 export const handleSubmit = async (evt) => {
   evt.preventDefault();
+
+  evt.target.classList.add('contact-form__form_centered');
+  evt.target.innerHTML = '<img src="/images/preloader.gif" alt="preloader">';
+
   const formData = new FormData(evt.target);
 
   const reqObject = {
@@ -18,10 +22,9 @@ export const handleSubmit = async (evt) => {
       description: formData.get('description')
     })
   };
-
+  
   const res = await fetch('/contact-form', reqObject);
+  
+  evt.target.innerHTML = '<p class="contact-form__form_text">Спасибо! Ваша заявка принята!<br>Мы свяжемся с Вами в скором времени.</p>';
 
-  console.log('res request', res)
-
-  evt.target.reset();
 }
