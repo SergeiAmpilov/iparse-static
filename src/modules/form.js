@@ -4,10 +4,8 @@ export const initForm = () => {
 
 
 export const handleSubmit = async (evt) => {
-  evt.preventDefault();
 
-  evt.target.classList.add('contact-form__form_centered');
-  evt.target.innerHTML = '<img src="/images/preloader.gif" alt="preloader">';
+  evt.preventDefault();
 
   const formData = new FormData(evt.target);
 
@@ -22,6 +20,9 @@ export const handleSubmit = async (evt) => {
       description: formData.get('description')
     })
   };
+
+  evt.target.classList.add('contact-form__form_centered');
+  evt.target.innerHTML = '<img src="/images/preloader.gif" alt="preloader">';
   
   const res = await fetch('/contact-form', reqObject);
   
