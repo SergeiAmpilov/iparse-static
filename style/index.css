@@ -14,6 +14,7 @@
 @import url(./promo/__title/promo__title.css);
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
+@import url(./promo/__button/promo__button.css);
 @import url(./articles/articles.css);
 @import url(./articles/__head/articles__head.css);
 @import url(./articles/__head/_link/articles__head_link.css);

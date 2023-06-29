@@ -5,10 +5,6 @@
   margin: 40px 0 0;
 }
 
-.promo__subtitle:last-child {
-  margin: 0;
-}
-
 @media screen and (max-width: 768px) {
   .promo__subtitle {
     text-align: center;

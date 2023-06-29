@@ -1,0 +1,14 @@
+.promo__button,
+.promo__button:visited {
+  color: #fff;
+  background-color: #FF6464;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+
+.promo__button:hover {
+  background-color: rgba(255, 100, 100, .8);
+}

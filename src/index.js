@@ -1,4 +1,5 @@
 import '../style/index.css';
+import { initAnchors } from './modules/anchors';
 
 document.addEventListener("DOMContentLoaded", bootstrap);
 
@@ -29,6 +30,8 @@ function bootstrap() {
     burgerIconMenu.addEventListener('click', toggleMenu);
     closeIcon.addEventListener('click', toggleMenu);
   }
+
+  initAnchors();
 
 
   
