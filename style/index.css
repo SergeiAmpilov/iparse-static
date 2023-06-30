@@ -36,6 +36,7 @@
 @import url(./articles/__description/articles__description.css);
 @import url(./articles/__img/articles__img.css);
 @import url(./articles/__img-full/articles__img-full.css);
+@import url(./articles/__img-responsive/article__img-responsive.css);
 @import url(./articles-list/articles-list.css);
 
 @import url(./footer/footer.css);
