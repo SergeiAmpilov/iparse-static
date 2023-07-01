@@ -1,13 +1,4 @@
 .promo {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+  margin: 60px 0;
 }
 
-
-@media screen and (max-width: 768px) {
-  .promo {
-    grid-template-columns: 1fr;
-  }
-}

@@ -1,0 +1,12 @@
+.promo__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+
+@media screen and (max-width: 768px) {
+  .promo__content {
+    grid-template-columns: 1fr;
+    grid-auto-flow: dense;
+  }
+}
