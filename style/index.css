@@ -10,16 +10,14 @@
 @import url(./mob-menu/mob-menu.css);
 @import url(./mob-menu/mob-menu_visible.css);
 @import url(./mob-menu/__link/mob-menu__link.css);
-
-
 @import url(./promo/promo.css);
 @import url(./promo/__head/promo__head.css);
 @import url(./promo/__title/promo__title.css);
 @import url(./promo/__content/promo__content.css);
-
 @import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./promo/__img/promo__img.css);
 @import url(./promo/__button/promo__button.css);
+@import url(./howitworks/howitworks.css);
 
 
 
