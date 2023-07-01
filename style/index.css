@@ -18,10 +18,9 @@
 @import url(./promo/__img/promo__img.css);
 @import url(./promo/__button/promo__button.css);
 @import url(./howitworks/howitworks.css);
-
-
-
-
+@import url(./howitworks/__list/howitworks__list.css);
+@import url(./howitworks/__item/howitworks__item.css);
+@import url(./howitworks/__item/_number/howitworks__item_number.css);
 @import url(./contact-form/contact-form.css);
 @import url(./contact-form/__subtitle/contact-form__subtitle.css);
 @import url(./contact-form/__form/contact-form__form.css);
@@ -32,7 +31,6 @@
 @import url(./contact-form/__form-field/contact-form__form-field.css);
 @import url(./contact-form/__form/_centered/contact-form__form_centered.css);
 @import url(./contact-form/__form/_text/contact-form__form_text.css);
-
 @import url(./articles/articles.css);
 @import url(./articles/__head/articles__head.css);
 @import url(./articles/__head/_link/articles__head_link.css);
@@ -45,7 +43,6 @@
 @import url(./articles/__img-full/articles__img-full.css);
 @import url(./articles/__img-responsive/article__img-responsive.css);
 @import url(./articles-list/articles-list.css);
-
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);
 @import url(./hidden/hidden.css);

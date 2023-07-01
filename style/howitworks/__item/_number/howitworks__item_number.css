@@ -1,0 +1,13 @@
+.howitworks__item_number {
+  background-color: #142850;
+  color: #fff;
+  
+  font-size: 22px;
+  font-weight: 900;
+  padding: 40px;
+  border-radius: 50%;
+
+  width: 10px;
+  height: 10px;
+  margin: 40px auto;
+}
