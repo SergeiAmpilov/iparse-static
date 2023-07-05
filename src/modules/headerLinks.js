@@ -13,12 +13,12 @@ export function activateHeaderLinks() {
   
   const curUri = parts[1];
 
-  if (curUri === '/') {
-    return ;
-  }
-
   linkList.forEach( (element) => {
-    const elHref = element.getAttribute('href');    
+    const elHref = element.getAttribute('href');
+
+    if (elHref === '/') {
+      return ;
+    }
 
     if (curUri.indexOf(elHref) !== -1) {
       element.classList.add(activeClassName);
