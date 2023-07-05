@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги парсинга веб-сайтов</title>
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="body">
+  <header class="header container">    
+    <nav class="header__nav">
+      <a href="/" class="header__nav-link">
+        <span class="material-symbols-outlined">
+          home
+        </span>
+      </a>
+      <div class="header__nav-menu">
+        <a href="/services" class="header__nav-link">
+          Услуги
+        </a>
+        <a href="articles.html" class="header__nav-link">
+          Статьи
+        </a>
+      </div>
+      <div class="header__burger-icon">
+        <span class="material-symbols-outlined">
+          menu
+        </span>
+      </div>
+      <div class="header__close-icon hidden">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </div>
+    </nav>
+  </header>
+  <nav class="mob-menu">
+    <div class="mob-menu__link">
+      <a href="/services" class="header__nav-link">
+        Услуги
+      </a>
+    </div>
+    <div class="mob-menu__link">
+      <a href="articles.html" class="header__nav-link">
+        Статьи
+      </a>
+    </div>
+  </nav>
+  <main>
+    <section class="contacts">
+      <div class="container">
+        <div class="promo__head">
+          <h1 class="promo__title">Контакты</h1>
+          <p class="promo__subtitle">
+            Обращайтесь!
+          </p>
+        </div>
+        <div class="promo__content">
+          <div>
+            <p class="promo__subtitle contacts__row">
+              <span class="material-symbols-outlined contacts__link">
+                alternate_email
+              </span>
+              Email:              
+              <a href="mailto:info@iparse.tech" class="articles__head_link contacts__link">info@iparse.tech</a>
+            </p>
+            <p class="promo__subtitle contacts__row">
+              <span class="material-symbols-outlined contacts__link">
+                call
+              </span>
+              Телефон:              
+              <a href="tel:+79268373346" class="articles__head_link contacts__link">+7 (926) 837 - 33 - 46</a>
+            </p>
+            <p class="promo__subtitle contacts__row">
+              <span class="material-symbols-outlined contacts__link">
+                rocket_launch
+              </span>
+              Telegram:              
+              <a href="https://t.me/ampilovsergei" class="articles__head_link contacts__link">@ampilovsergei</a>
+            </p>
+            <p class="promo__subtitle contacts__row">
+              <span class="material-symbols-outlined contacts__link">
+                schedule
+              </span>
+              График работы:
+              <span class="contacts__link">
+                пн - пн, с 10:00 до 19:00
+              </span>
+              
+            </p>
+             
+
+          </div>
+          <img src="/images/contacts.png" alt="web-parsing" class="promo__img">
+        </div>
+      </div>
+    </section>
+    <section class="contact-form" id="form">
+      <div class="container">
+        <h2 class="title2">
+          Заполните форму
+        </h2>
+        <p class="contact-form__subtitle">
+          Заполните форму обратной связи, для того чтобы заказать услуги парсинга
+        </p>
+        <form action="" name="contact-form" class="contact-form__form" id="contact-form">
+          
+          <label for="name" class="contact-form__name">
+            Ваше имя:
+            <input type="text" placeholder="Ваше имя..." name="name" class="contact-form__form-field">
+          </label>
+
+          <label for="email" class="contact-form__email">
+            Email:
+            <input type="email" placeholder="Ваш email..." name="email" class="contact-form__form-field" required>
+          </label>
+
+          <label for="description" class="contact-form__text">
+            Опишите, что нужно парсить. Укажите адреса сайтов и какие нужны данные
+            <textarea name="description" id="description" cols="8" rows="6" class="contact-form__form-field"></textarea>
+          </label>
+
+          <button type="submit" class="contact-form__button">
+            Отправить заявку
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      iparse.tech - услуги парсинга веб-сайтов
+      &#169;
+      <span class="footer__year"></span>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

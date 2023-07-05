@@ -43,6 +43,9 @@
 @import url(./articles/__img-full/articles__img-full.css);
 @import url(./articles/__img-responsive/article__img-responsive.css);
 @import url(./articles-list/articles-list.css);
+@import url(./contacts/contacts.css);
+@import url(./contacts/__row/contacts__row.css);
+@import url(./contacts/__link/contacts__link.css);
 @import url(./footer/footer.css);
 @import url(./footer/__content/footer__content.css);
 @import url(./hidden/hidden.css);
