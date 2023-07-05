@@ -1,5 +1,8 @@
 export const initForm = () => {
-  const form = document.querySelector('.contact-form__form').addEventListener('submit', handleSubmit);
+  const form = document.querySelector('.contact-form__form');
+  if (form) {
+    form.addEventListener('submit', handleSubmit); 
+  }
 }
 
 
