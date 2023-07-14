@@ -1,0 +1,6 @@
+.examples__card_img {
+  object-fit: cover;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 4px;
+}

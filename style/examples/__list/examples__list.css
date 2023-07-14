@@ -1,0 +1,6 @@
+.examples__list {
+  margin: 40px 0;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr) );
+}
