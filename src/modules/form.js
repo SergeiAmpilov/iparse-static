@@ -60,8 +60,8 @@ const handleSubmitExample = async (evt) => {
   evt.target.classList.add('contact-form__form_centered');
   evt.target.innerHTML = '<img src="/images/preloader.gif" alt="preloader">';
 
-  const res = await fetch('/examples-request', reqObject);
+  const res = await fetch('/cases/request', reqObject);
 
   evt.target.innerHTML = '<p class="contact-form__form_text">Спасибо! Мы получили Ваш запрос!<br>В ближайшее время вам на указаннную электронную почту придет пример базы данных.</p>';
-  
+
 };
