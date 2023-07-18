@@ -41,9 +41,8 @@ export const handleSubmit = async (evt) => {
 
 
 const handleSubmitExample = async (evt) => {
-  evt.preventDefault();
-
   
+  evt.preventDefault();
 
   const formData = new FormData(evt.target);
 
@@ -64,7 +63,5 @@ const handleSubmitExample = async (evt) => {
   const res = await fetch('/examples-request', reqObject);
 
   evt.target.innerHTML = '<p class="contact-form__form_text">Спасибо! Мы получили Ваш запрос!<br>В ближайшее время вам на указаннную электронную почту придет пример базы данных.</p>';
-
-
-
+  
 };
