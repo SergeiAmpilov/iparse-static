@@ -67,8 +67,9 @@
               Укажите адрес электронной почты, на который выслать пример базы данных:
             </p>
             <p class="promo__subtitle">
-              <form action="/" method="post">
-                <input type="email" placeholder="Ваш email..." name="email" class="contact-form__form-field_flat" required="">                
+              <form action="/" method="post" class="examples__form">
+                <input type="email" placeholder="Ваш email..." name="email" class="contact-form__form-field_flat" required="">
+                <input type="hidden" value="example-slug" name="slug">
                 <button class="contact-form__button">Отправить</button>
               </form>
             </p>
